@@ -4,6 +4,7 @@ import App from './App.jsx';
 import './index.css';
 
 import { BrowserRouter } from 'react-router-dom';
+import { Analytics } from "@vercel/analytics/next";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
